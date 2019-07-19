@@ -1,8 +1,22 @@
 .App {
   text-align: center;
 }
+
+
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  width: 100%;
+  border-bottom: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 1vw 0;
 }
 /* write your parent styles in here for your App.js */
+
+.CardContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
